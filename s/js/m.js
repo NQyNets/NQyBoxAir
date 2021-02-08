@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0032)http://box.nqynet.cn/app/js/?f=m -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK"></head><body>var ColoredButton = (function() {
+var ColoredButton = (function() {
     util.extend(ColoredButton, ui.Widget);
     function ColoredButton() {
         ui.Widget.call(this);
@@ -10,7 +8,7 @@
             this._color = value;
             view.attr("backgroundTint", value);
         });
-        //自定义属性onclick
+        //脳脭露篓脪氓脢么脨脭onclick
         this.defineAttr("onClick", (view, name, defaultGetter) =&gt; {
             return this._onClick;
         }, (view, name, value, defaultSetter) =&gt; {
